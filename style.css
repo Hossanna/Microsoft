@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+}
+nav{
+    justify-content: space-between;
+    padding: 1% 5% 0;
+}
+nav .ul1{
+    width: 50%;
+    justify-content: space-between;
+
+}
+nav .ul2{
+    width: 25%;
+    justify-content: space-between;
+
+}
+nav li{
+    line-height: 2.5;
+    /* color: #686868; */
+    font-size: .9em;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+}
+
+.section1{
+    height: 500px;
+    width: 99vw;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./images/Highlight-Copilot-Commercial_VP4-1399x600.jpeg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 div{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+.section1 div .new{
+    padding: 2% 4%;
+    background-color: #ffb900;
+    width: fit-content;
+    margin-bottom: 5%;
+}
+
+.section1 div h1{
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+}
+.section1 div .paragraph{
+    margin: 5% 0;
+
+}
+.section1 button{
+    width: fit-content;
+    color: white;
+    background-color: #0067b8;
+    border: none;
+    padding: 3% 5%;
+    font-weight: 600;
+}
+
+.section2{
+    width: 94vw;
+    margin: 5% auto;
+}
+.section4{
+    margin: 2% auto 5% !important;
+
+}
+
+.flex-items{
+    margin: 0 1%;
+    width: 25%;
+}
+.flex-items h1{
+    font-size: 1.8em;
+}
+.flex-items img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.flex-items p{
+    margin: 8% 0;
+}
+.blue{
+    color: #0067b8;
+    margin-top: 0 !important;
+}
+.right{
+    margin-left: 50px !important;
+}
+
+.section3{
+    background-image: url(./images/gldn-Hero-MSCOM-Outlook-iOS-Android_VP4-1260x600.webp) !important;
+    width: 92vw;
+    margin: 2% auto 5%;
+
+}
+.business{
+    font-size: 2.2em;
+    margin: 2% auto 0;
+    width: 92vw;
+}
+.follow{
+    margin: 2% auto 0;
+    width: 92vw;
+}
+p{
+    font-size: 1.1em;
+}
+.bold{
+    font-weight: 800;
+    font-size: .95em;
+}
+
+footer{
+    background-color: #f2f2f2;
+    padding: 2% 5%;
+    margin-top: 5%;
+    color: #686868;
+}
+footer li{
+    margin-bottom: 20px;
+    font-size: .9em;
+}
+.footer{
+    width: 80%;
+    justify-content: space-between;
+}
+footer :nth-child(2){
+    justify-content: space-between;
+}
+
+footer .ul1{
+    width: 20%;
+    justify-content: space-between;
+    margin: 2% 0 0;
+
+}
+footer .ul2{
+    width: 45%;
+    justify-content: space-between;
+    margin: 2% 0 0;
+
+}
