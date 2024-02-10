@@ -166,3 +166,17 @@ footer .ul2{
     margin: 2% 0 0;
 
 }
+
+@media screen and (max-width: 800px) {
+    .flex{
+        display: block;
+    }
+
+    .flex-items{
+        width: 90%;
+        margin: auto;
+    }
+    .section1 div{
+        width: 70%;
+    }
+}
